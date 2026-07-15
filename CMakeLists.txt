@@ -21,6 +21,8 @@ qt_add_resources(RESOURCES
 
 add_executable(Alarme
     src/main.cpp
+    src/AlarmManager.cpp
+    src/AlarmManager.h
     ${RESOURCES}
 )
 
